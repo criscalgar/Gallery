@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/utils/include.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <script src="/js/libs/bootstrap.min.js"></script>
+    <script src="./js/register.js" type="module"></script>
+    <script src="./js/header.js" type="module"></script>
+    <script src="/web/js/libs/axios.min.js"></script>
+</head>
+
+<body class="body">
+    <div id="page-header"></div>
+    <div class="container">
+        <div class="row text-center">
+            <h2>Register a new user: </h2>
+            <hr>
+        </div>
+        <div id="errors"></div>
+        <form id="register-form">
+            <div class="row">
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="firstname-input">First name:</label>
+                        <input type="text" class="form-control" id="firstname-input" name="firstName"
+                            placeholder="First name">
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="lastname-input">Last name:</label>
+                        <input type="text" class="form-control" id="lastname-input" name="lastName"
+                            placeholder="Last name">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="telephone-input">Phone number:</label>
+                        <input type="text" class="form-control" id="telephone-input" name="telephone"
+                            placeholder="Phone number">
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="email-input">Email:</label>
+                        <input type="email" class="form-control" id="email-input" name="email"
+                            placeholder="Email">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="username-input">Username:</label>
+                        <input type="text" class="form-control" id="username-input" name="username"
+                            placeholder="Username">
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="password-input">Password:</label>
+                        <input type="password" class="form-control" id="password-input" name="password"
+                            placeholder="Password">
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="password2-input">Repeat the password:</label>
+                        <input type="password" class="form-control" id="password2-input" name="password2"
+                            placeholder="Password">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="avatar-input">avatarUrl:</label>
+                        <input type="text" class="form-control" id="avatar-input" name="avatarUrl"
+                            placeholder="url">
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-md text-center">
+                    <button type="submit" style="background-color: white; border-radius: 5px; height: 40px; width: 80px;">Register</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        include("header.html", "#page-header");
+    </script>
+</body>
+
+</html>

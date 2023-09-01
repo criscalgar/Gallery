@@ -1,0 +1,110 @@
+div.photo-block {
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+
+div.photo-title {
+    font-size: 140%;
+    font-family: Arial;
+    text-decoration: underline;
+}
+
+div.photo-score {
+    font-family: 130%;
+    font-family: monospace;
+}
+
+img.photo-image {
+    height: auto;
+    width: 100%;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+input,
+select {
+    background-color: #666666;
+    border-color: #999999;
+    color: white;
+}
+
+.input-group>label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+}
+
+.input-group {
+    margin-bottom: 0.5em;
+}
+
+div.title-block {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+div.container-fluid {
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/25/22/39/252239b6ba51eabf0acb67dd0ead8fe2.jpg");
+    background-position: center;
+}
+
+#title {
+    font-size: 300%;
+    text-decoration: none;
+    color: #222222;
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+
+#subtitle {
+    font-size: 120%;
+    font-style: italic;
+    color: #222222;
+    font-family: monospace;
+}
+
+div.navigation>a {
+    color: white;
+    font-size: 120%;
+    font-family: monospace;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 150px;
+}
+
+img.photo-user-avatar {
+    max-width: 25px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.body{
+    background-image: url("https://i.pinimg.com/originals/25/22/39/252239b6ba51eabf0acb67dd0ead8fe2.jpg");
+    background-position: center;
+}
+
+#sign-up{
+    background-color: #222222;
+    color: white;
+    border-radius: 5px;
+    height: 70px;
+    width: 70px;
+}
+
+#sign-in{
+    background-color: #222222;
+    color: white;
+    border-radius: 5px;
+    height: 70px;
+    width: 70px;
+}
+
+#box{
+    text-align: center;
+    margin-top: 350px;
+}
